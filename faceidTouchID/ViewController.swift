@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         button.setTitle("Authorize", for: .normal)
         button.backgroundColor = .systemBlue
         button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
+        print("hello world")
         
     }
     
