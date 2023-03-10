@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         button.backgroundColor = .systemBlue
         button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
         print("hello world")
-        
+        print("hello again")
     }
     
     @objc func didTapButton2() {
